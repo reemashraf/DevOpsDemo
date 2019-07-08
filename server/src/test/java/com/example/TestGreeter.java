@@ -19,7 +19,7 @@ public class TestGreeter {
 @Test
 public void testAssert(){
 //    try to check why yasser exits
-  String expected = "Hello, reem!";
+  String expected = "nice";
   String name = greeter.greet("reem");
   assertEquals(name,expected);
 }
